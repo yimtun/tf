@@ -1,0 +1,12 @@
+ec2_instance_public_ips:
+  sensitive: false
+  type: string
+  value: 34.210.67.28
+instance_id:
+  sensitive: false
+  type: string
+  value: i-0c58cbe8ab233ee10
+private_ip:
+  sensitive: false
+  type: string
+  value: 172.31.37.219
