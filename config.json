@@ -84,14 +84,14 @@
             "name": "/prod/db/password",
             "description": "Database password",
             "type": "SecureString",
-            "value": "secret-password",
+            "value": "${DB_PASSWORD}",
             "overwrite": true
         },
         "api_key": {
             "name": "/prod/api/key",
             "description": "API key",
             "type": "SecureString",
-            "value": "secret-key",
+            "value": "${API_KEY}",
             "overwrite": true
         }
     },
